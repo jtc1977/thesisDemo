@@ -8,6 +8,8 @@ chartDemo.clear = function () {
 
 chartDemo.update = function(bodyPart) {
 
+    chartDemo.clear();
+    
     Morris.Line({
           // ID of the element in which to draw the chart.
           element: 'myfirstchart',
